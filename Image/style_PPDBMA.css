@@ -1,0 +1,7 @@
+/* Centered and responsive image styling */
+.center-image {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 1000px; /* Set maximum width to 200px */
+    height: auto; /* Maintain aspect ratio */
+}

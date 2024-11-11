@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/*Navbar styling*/
+/*Navbar styling*/
+nav{
+    background-color: rgb(25, 152, 174);
+    padding: 10px 20px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 145px;
+    height: auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav ul li a:hover, 
+nav ul li .dropdown-content a:hover{
+    background-color: goldenrod;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #158f5e;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+/* Section styling*/
+section{
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: linear-gradient(135deg, #f9f9f9 25%, #e0e0e0 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:  rgb(14, 155, 231);
+    padding: 10px;
+    background-color: rgb(197, 205, 211);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.jam_operasional h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+.jam_operasional h4{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #555;
+}
+.jam_operasional p{
+    margin-top: 20px;
+    margin-bottom: 14px;
+    color: #777;
+}
+.jam_operasional button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(36, 110, 247);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.jam_operasional button:hover{
+    background-color: darkblue;
+}
